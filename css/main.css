@@ -103,7 +103,7 @@ header {
 
 
 .container-flex {
-    background: var(--clr-light2);
+    background: var(--clr-dark);
     height: 1000px;
     justify-content: center;
 }
