@@ -104,9 +104,10 @@ header {
 
 .container-flex {
     background: var(--clr-dark);
-    height: 1000px auto;
+    height: 700px auto;
     justify-content: center;
     margin-bottom: 2em;
+    min-height: 700px;
 }
 
 
@@ -296,7 +297,8 @@ table {
 
 .edit__box {
     padding: 0.2em;
-    margin: 0 2em;
+    margin: 0 2em 2em 2em;
+
 }
 
 .btn-close {
