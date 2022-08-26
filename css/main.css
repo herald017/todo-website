@@ -320,3 +320,9 @@ table {
     border-bottom: 1.5 px solid var(--clr-light);
 }
 
+/* NEW COMMENT FROM GIT CLONE */
+/* EDIT button ******/
+
+.edit__box {
+    background: #C1666B;
+}
