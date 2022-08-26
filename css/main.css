@@ -104,7 +104,7 @@ header {
 
 .container-flex {
     background: var(--clr-dark);
-    height: 1000px;
+    height: 1000px auto;
     justify-content: center;
 }
 
@@ -126,6 +126,7 @@ header {
 .label, 
 .task-label,
 .task-no,
+.todo-title,
 .task__item {
     color: var(--clr-light2);
 }
@@ -334,7 +335,13 @@ table {
     background: #C1666B;
 
 }
-.edit-task,
 .btn-save {
+    background: #48A9A6;
+}
+.edit-task,
+.btn-save,
+.btn-close {
     padding: 1em;
+    font-size: var(--fs-p-small);
+
 }
