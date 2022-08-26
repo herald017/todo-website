@@ -325,4 +325,9 @@ table {
 
 .edit__box {
     background: #C1666B;
+
+}
+.edit-task,
+.btn-save {
+    padding: 1em;
 }
