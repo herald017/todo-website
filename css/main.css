@@ -123,6 +123,13 @@ header {
 
 }
 
+.label, 
+.task-label,
+.task-no,
+.task__item {
+    color: var(--clr-dark);
+}
+
 
 .input-task {
     text-align: center;
