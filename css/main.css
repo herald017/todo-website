@@ -234,21 +234,23 @@ table {
 .about--title {
     text-decoration: none;
     font-size: var(--fs-h2);
-    color: var(--clr-dark);
+    color: var(--clr-light);
     padding: 0;
     margin: 0;
 }
 .about--body {
     padding: 1em 0;
     margin: 0;
+    color: var(--clr-light2);
 }
 .about--contact {
     padding: 1em 0;
     margin: 0;
+    color: var(--clr-light2);
 }
 .about--email {
     text-decoration: none;
-    color: black;
+    color: var(--clr-light);
     font-weight: var(--fw-bold);
 }
 
