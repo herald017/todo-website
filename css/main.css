@@ -338,10 +338,16 @@ table {
 .btn-save {
     background: #48A9A6;
 }
+.btn-close {
+    color: var(--clr-light2);
+}
 .edit-task,
 .btn-save,
 .btn-close {
-    padding: 1em;
-    font-size: var(--fs-p-small);
+    text-align: center;
+    padding: 0.2em;
+    margin: 1em 2em;
+    font-size: var(--fs-body);
+    font-family: var(--ff-primary);
 
 }
