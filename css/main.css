@@ -106,6 +106,7 @@ header {
     background: var(--clr-dark);
     height: 1000px auto;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 
@@ -290,17 +291,42 @@ table {
     font-weight: var(--fw-bold);
 }
 
+/* NEW COMMENT FROM GIT CLONE */
+/* EDIT button ******/
 
+.edit__box {
+    padding: 0.2em;
+    margin: 0 2em;
+}
 
+.btn-close {
+    background: #C1666B;
 
-/*  Footer */
+}
+.btn-save {
+    background: #48A9A6;
+}
+.btn-close {
+    color: var(--clr-light2);
+}
+.edit-task,
+.btn-save,
+.btn-close {
+    text-align: center;
+    padding: 0.2em;
+    margin: 1em 2em;
+    font-size: var(--fs-body);
+    font-family: var(--ff-primary);
 
+}
 /* Footer */
 .footer {
     background: var(--clr-darker);
     color: var(--clr-accent2);
     text-align: center;
     padding: 2.5em 0;
+    margin: 0;
+    height: auto;
 }
 .footer a {
     color: inherit; 
@@ -328,26 +354,3 @@ table {
     border-bottom: 1.5 px solid var(--clr-light);
 }
 
-/* NEW COMMENT FROM GIT CLONE */
-/* EDIT button ******/
-
-.edit__box {
-    background: #C1666B;
-
-}
-.btn-save {
-    background: #48A9A6;
-}
-.btn-close {
-    color: var(--clr-light2);
-}
-.edit-task,
-.btn-save,
-.btn-close {
-    text-align: center;
-    padding: 0.2em;
-    margin: 1em 2em;
-    font-size: var(--fs-body);
-    font-family: var(--ff-primary);
-
-}
