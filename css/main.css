@@ -219,6 +219,104 @@ table {
 }
 
 
+
+
+/*  ABOUT PAGE  */
+
+.about-container {
+    display: flex;
+    padding: 0.2em;
+    margin: 0 2em;
+    flex-direction: column;
+} 
+
+
+.about--title {
+    text-decoration: none;
+    font-size: var(--fs-h2);
+    color: var(--clr-dark);
+    padding: 0;
+    margin: 0;
+}
+.about--body {
+    padding: 1em 0;
+    margin: 0;
+}
+.about--contact {
+    padding: 1em 0;
+    margin: 0;
+}
+.about--email {
+    text-decoration: none;
+    color: black;
+    font-weight: var(--fw-bold);
+}
+
+/* NEW COMMENT FROM GIT CLONE */
+/* EDIT button ******/
+
+.edit__box {
+    padding: 0.2em 0.2em 2em 0.2em;
+    margin: 0 2em;
+
+}
+
+.btn-close {
+    background: #C1666B;
+
+}
+.btn-save {
+    background: #48A9A6;
+}
+.btn-close {
+    color: var(--clr-light2);
+}
+.edit-task,
+.btn-save,
+.btn-close {
+    text-align: center;
+    padding: 0.2em;
+    margin: 1em 2em;
+    font-size: var(--fs-body);
+    font-family: var(--ff-primary);
+    width: 200px auto;
+
+}
+/* Footer */
+.footer {
+    background: var(--clr-darker);
+    color: var(--clr-accent2);
+    text-align: center;
+    padding: 2.5em 0;
+    margin: 0;
+    height: auto;
+}
+.footer a {
+    color: inherit; 
+    text-decoration: none;
+}
+.footer-link {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+}
+.social-list {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+.social-list__item {
+    margin: 0 1em;
+}
+
+.footer-link:hover, 
+.social-list__link:hover {
+    opacity: .7;
+    border-bottom: 1.5 px solid var(--clr-light);
+}
+
 @media (min-width: 600px) {
     .header-flex {
         display: flex;
@@ -260,99 +358,3 @@ table {
     }
 
 }
-
-/*  ABOUT PAGE  */
-
-.about-container {
-    display: flex;
-    padding: 0.2em;
-    margin: 0 2em;
-    flex-direction: column;
-} 
-
-
-.about--title {
-    text-decoration: none;
-    font-size: var(--fs-h2);
-    color: var(--clr-dark);
-    padding: 0;
-    margin: 0;
-}
-.about--body {
-    padding: 1em 0;
-    margin: 0;
-}
-.about--contact {
-    padding: 1em 0;
-    margin: 0;
-}
-.about--email {
-    text-decoration: none;
-    color: black;
-    font-weight: var(--fw-bold);
-}
-
-/* NEW COMMENT FROM GIT CLONE */
-/* EDIT button ******/
-
-.edit__box {
-    padding: 0.2em;
-    margin: 0 2em 2em 2em;
-
-}
-
-.btn-close {
-    background: #C1666B;
-
-}
-.btn-save {
-    background: #48A9A6;
-}
-.btn-close {
-    color: var(--clr-light2);
-}
-.edit-task,
-.btn-save,
-.btn-close {
-    text-align: center;
-    padding: 0.2em;
-    margin: 1em 2em;
-    font-size: var(--fs-body);
-    font-family: var(--ff-primary);
-
-}
-/* Footer */
-.footer {
-    background: var(--clr-darker);
-    color: var(--clr-accent2);
-    text-align: center;
-    padding: 2.5em 0;
-    margin: 0;
-    height: auto;
-}
-.footer a {
-    color: inherit; 
-    text-decoration: none;
-}
-.footer-link {
-    font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
-}
-.social-list {
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 0;
-}
-.social-list__item {
-    margin: 0 1em;
-}
-
-.footer-link:hover, 
-.social-list__link:hover {
-    opacity: .7;
-    border-bottom: 1.5 px solid var(--clr-light);
-}
-
