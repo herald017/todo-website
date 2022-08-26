@@ -127,7 +127,7 @@ header {
 .task-label,
 .task-no,
 .task__item {
-    color: var(--clr-dark);
+    color: var(--clr-light2);
 }
 
 
